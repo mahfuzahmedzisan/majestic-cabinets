@@ -1,0 +1,435 @@
+@media only screen and (max-width: 1140px) {
+    .container {
+        width: 90%;
+    }
+
+    /* ========== Home Page ========= */
+
+    /* Carousel Section  */
+    .carousel-main-content {
+        padding: 5px;
+    }
+
+    .carousel-content h2 {
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    .carousel-content p {
+        font-size: 18px;
+    }
+
+    .carousel-content .btn a {
+        font-size: 20px;
+    }
+
+    /* ============== End of Home Page ============= */
+    /* ============== Start Service Page ============= */
+    .our-service-content {
+        gap: 30px;
+    }
+
+    /* ============== End of Service Page ============= */
+
+}
+
+@media only screen and (max-width:1024px) {
+
+    /* ============== Start Home Page ============= */
+
+    /* Carousel Section  */
+    .carousel-content h2 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .carousel-content p {
+        font-size: 15px;
+    }
+
+    .carousel-content .btn a {
+        font-size: 16px;
+    }
+
+
+    .carousel-section .carousel-slides .slide img {
+        min-height: 400px;
+    }
+
+    /* Llc Section  */
+    .llc-container {
+        flex-direction: column-reverse;
+    }
+
+    .llc-content {
+        width: 100%;
+    }
+
+    .llc-carousel {
+        width: 95%;
+    }
+
+
+
+    /* Portfolio Section  */
+    .portfolio-images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .portfolio-images .image:last-child {
+        display: block;
+    }
+
+    .portfolio-page-section .portfolio-images .image:last-child {
+        display: none;
+    }
+
+    /* Blog Section  */
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-content .blog-card p {
+        font-size: 16px;
+    }
+
+    .blog-content .blog-card h3 {
+        font-size: 28px;
+    }
+
+    .blog-content .blog-card a {
+        font-size: 18px;
+    }
+
+    /* Message Section  */
+    .message-section {
+        padding: 60px 0;
+    }
+
+    .message-container {
+        flex-direction: column;
+    }
+
+    .message-section input {
+        width: 100%;
+    }
+
+    .message-section h2 {
+        font-size: 20px;
+    }
+
+    /* ============== End of Home Page ============= */
+
+    /* ============== Start About us  Page ============= */
+
+    /* Header Section  */
+    .header-section .about-page-banner img {
+        min-height: 250px;
+    }
+
+    /* llc Section  */
+    .llc-content a {
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+
+    /* Staff Section  */
+    .staff-content {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* ============== End of About us  Page ============= */
+    /* ============== Start Service Page ============= */
+    .our-service-content {
+        gap: 20px;
+    }
+    .service-page-product-section .image img {
+        width: 90%;
+    }
+    .our-service-card h2{
+        font-size: 20px;
+    }
+    /* ============== End of Service Page ============= */
+}
+
+@media only screen and (max-width:767px) {
+
+    .tittle h2 {
+        font-size: 24px;
+    }
+
+    /* ============== Start Home Page ============= */
+
+    /* Header Section  */
+    .top-header .logo img {
+        width: 95%;
+    }
+
+    .header-section .nav .contact-info a {
+        display: none;
+    }
+
+    .header-section .nav .contact-info .res-contact-info {
+        display: flex;
+    }
+
+    .header-section .nav .contact-info .res-contact-info a {
+        display: block;
+    }
+
+    .header-section .nav .contact-info a i {
+        display: block;
+    }
+
+    .header-section .nav {
+        gap: 25px;
+    }
+
+    .menu .list-item {
+        font-size: 18px;
+    }
+
+    /* Contact Section  */
+    .main-contact {
+        grid-template-columns: 1fr;
+    }
+
+    /* footer Section  */
+    footer {
+        padding: 20px;
+    }
+
+    footer p,
+    footer p a {
+        font-size: 13px;
+    }
+
+    /* Carousel Section  */
+
+    .carousel-section {
+        overflow: visible;
+    }
+
+    .carousel-section .carousel-slides .slide img {
+        min-height: 380px;
+        display: block;
+
+    }
+
+    .carousel-content h2 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .carousel-content p {
+        font-size: 12px;
+    }
+
+    .carousel-content .btn a {
+        font-size: 14px;
+    }
+
+    /* Service Section  */
+    .service-container {
+        flex-direction: column;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    /* Portfolio Section  */
+    .portfolio-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .portfolio-images .image:last-child {
+        display: none;
+    }
+
+    .portfolio-page-section .portfolio-images .image:last-child {
+        display: block;
+    }
+
+    /* FAQ Section */
+    .faq-card h2 {
+        font-size: 18px;
+    }
+
+    /* Blog Section  */
+    .blog-content .blog-card h3 {
+        font-size: 18px;
+    }
+
+    .blog-content .blog-card p {
+        font-size: 13px;
+    }
+
+    .blog-content .blog-card a {
+        font-size: 15px;
+    }
+
+    /* ============== End of Home Page ============= */
+    /* ============== Start About us  Page ============= */
+
+    /* Header Section  */
+    .header-section .about-page-banner img {
+        min-height: 250px;
+    }
+
+    /* Staff Section  */
+
+    .staff-card h2 {
+        font-size: 18px;
+    }
+
+    .staff-card h3 {
+        font-size: 14px;
+    }
+
+    .staff-card a {
+        font-size: 14px;
+    }
+
+    .staff-card a i {
+        padding-right: 6px;
+    }
+
+    .staff-card p {
+        font-size: 14px;
+    }
+
+    /* Maintence Section  */
+
+    .maintence-content {
+        grid-template-columns: 1fr;
+    }
+
+    .maintence-card h2 {
+        font-size: 20px;
+    }
+
+    .maintence-card p {
+        font-size: 14px;
+    }
+
+    /* ============== End of About us  Page ============= */
+    /* ============== Start Service Page ============= */
+    .our-service-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .our-service-card {
+        width: 100%;
+    }
+    .our-service-card h2{
+        font-size: 18px;
+    }
+    .service-page-product-section .tittle h2 {
+        font-size: 18px;
+    }
+    
+    .service-page-product-section .tittle h2 span {
+        font-size: 22px;
+        display: block;
+    }
+    /* ============== End of Service Page ============= */
+    /* ============== Start Contact Page ============= */
+    .contact-page-contact-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contact-page-contact-container .contact-form {
+        width: 100%;
+    }
+    .contact-page-contact-container .contact-form .contact-form-card{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .contact-page-contact-container .contact-right {
+        width: 100%;
+    }
+    /* ============== End of Contact Page ============= */
+
+}
+
+@media only screen and (max-width:480px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* Header Section  */
+    .top-header .logo img {
+        width: 100%;
+    }
+
+    .header-section .nav {
+        gap: 16px;
+    }
+
+    .menu .list-item {
+        font-size: 14px;
+    }
+
+    /* ============== Start Home Page ============= */
+
+    /* Carousel Section  */
+    .carousel-main-content {
+        padding: 3px;
+    }
+
+    .carousel-content h2 {
+        font-size: 15px;
+    }
+
+    .carousel-content p {
+        font-size: 12px;
+    }
+
+    /* llc Section  */
+    .llc-carousel {
+        width: 100%;
+    }
+
+    .llc-content h2 {
+        font-size: 18px;
+    }
+
+    .llc-content h3 {
+        font-size: 14px;
+    }
+
+    .llc-content p {
+        font-size: 13px;
+    }
+
+    .llc-content a {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+
+    /* Portfolio Section      */
+    .portfolio-images {
+        grid-template-columns: 1fr;
+    }
+
+    /* Message Section  */
+    .message-section h2 {
+        font-size: 18px;
+    }
+
+    /* ============== End of Home Page ============= */
+    /* ============== Start About us Page ============= */
+
+    /* staff Section  */
+    .staff-card a {
+        font-size: 13px;
+    }
+
+    /* ============== End of About us Page ============= */
+
+
+
+}
