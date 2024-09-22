@@ -155,7 +155,7 @@ const llcNextSlide = () => {
 
 
 const llcStartAutoSlide = () => {
-    llcSlideInterval = setInterval(llcNextSlide, 3000);
+    llcSlideInterval = setInterval(llcNextSlide, 5000);
 };
 
 const llcStopAutoSlide = () => {

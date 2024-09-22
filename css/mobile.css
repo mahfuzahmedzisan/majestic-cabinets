@@ -157,6 +157,7 @@
 
     .tittle h2 {
         font-size: 24px;
+        padding-bottom: 15px;
     }
 
     /* ============== Start Home Page ============= */
@@ -189,17 +190,33 @@
     .menu .list-item {
         font-size: 18px;
     }
-
-    /* Contact Section  */
+    .llc-section {
+        padding: 40px 0 50px;
+    }
+    .llc-content h3 {
+        padding: 20px 0 40px;
+    }
+    .portfolio-section {
+        padding: 50px 0 30px;
+    }
+    .portfolio-images {
+        padding: 30px 0;
+    }
+    .faq-section {
+        padding: 50px 0;
+    }
+    .blog-section {
+        padding: 40px 0;
+    }
+    .contact-section {
+        padding: 50px 0;
+    }
     .main-contact {
         grid-template-columns: 1fr;
     }
-
-    /* footer Section  */
     footer {
         padding: 20px;
     }
-
     footer p,
     footer p a {
         font-size: 13px;
@@ -277,9 +294,16 @@
     .header-section .about-page-banner img {
         min-height: 250px;
     }
-
-    /* Staff Section  */
-
+    .about-page-llc-image img {
+        width: 100%;
+    }
+    .staff-section {
+        padding: 47px 0 50px;
+    }
+    .staff-content {
+        gap: 20px;
+        padding-top: 40px;
+    }
     .staff-card h2 {
         font-size: 18px;
     }
@@ -316,15 +340,22 @@
 
     /* ============== End of About us  Page ============= */
     /* ============== Start Service Page ============= */
+    .our-service-section {
+        padding: 50px 0;
+    }
     .our-service-content {
         flex-direction: column;
         gap: 40px;
+        padding-top: 35px;
     }
     .our-service-card {
         width: 100%;
     }
     .our-service-card h2{
         font-size: 18px;
+    }
+    .service-page-product-section {
+        padding: 20px 0 50px;
     }
     .service-page-product-section .tittle h2 {
         font-size: 18px;
@@ -336,6 +367,9 @@
     }
     /* ============== End of Service Page ============= */
     /* ============== Start Contact Page ============= */
+    .contact-page-contact-section {
+        padding: 50px 0;
+    }
     .contact-page-contact-container{
         flex-direction: column;
         gap: 40px;
@@ -351,6 +385,35 @@
         width: 100%;
     }
     /* ============== End of Contact Page ============= */
+    /* ============== Start Article Page ============= */
+    .articale-page-section {
+        padding-top: 30px;
+    }
+    .articale-page-section .articale-page-container {
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .articale-page-section .articale-section {
+        width: 100%;
+    }
+    .articale-page-section .categories-section {
+        width: 100%;
+    }
+    .articale-page-section .aritcale-seciton-content h2 {
+        font-size: 20px;
+    }
+    .articale-page-section .aritcale-seciton-content p {
+        font-size: 14px;
+    }
+    .articale-page-section .aritcale-seciton-content .btn a {
+        padding: 14px 25px;
+    }
+    /* ============== End of Article Page ============= */
+    /* ============== Start of Article Details Page ============= */
+    .articale-details-page-section {
+        padding: 50px 0;
+    }
+    /* ============== End of Article Details Page ============= */
 
 }
 

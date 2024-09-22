@@ -1152,6 +1152,9 @@ footer p a {
 /* End of Portfolio Page */
 
 /* Articale Page Start */
+.articale-page-section {
+	padding-top: 55px;
+}
 
 .articale-page-section .articale-page-container {
     display: flex;
